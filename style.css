@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 35px;
+    position: relative;
+    top: -250px;
+}
+
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.edit-link {
+    position: absolute;
+    font-weight: 500;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #10a37f;
+    text-decoration: none;
+    padding: 4px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: -6px;
+}
+
+.forgot-password {
+    margin-left: -200px;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #10a37f;
+    text-decoration: none;
+}
+
+.continue-button {
+    width: 100%;
+    padding: 16px;
+    background-color: #10a37f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-top: -4p;
+}
+
+.continue-button:hover {
+    background-color: #0f9473;
+}
+
+.register-link {
+    text-decoration: none;
+    color: #10a37f;
+}
+
+.account{
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    position: relative;
+    top: 250px;
+}
+
+footer a {
+    color: #10a37f;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.password-toggle-icon img{
+    position: relative;
+    bottom: 2.4rem;
+    right: -8rem;
+    width: 25px;
+}
+
+.password-toggle-icon img:hover{
+    background-color: darkgrey;
+}
